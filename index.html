@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Drum Kit</title>
+</head>
+<body>
+  <h1>Drum Kit</h1>
+  <div id="drum-kit" class="container">
+
+    <div id="crash" class="instrument">
+      <audio id ="aud-crash" src="./sounds/crash.mp3">
+      </audio>
+      <ul>
+        <li><img id="img-crash" src="./images/crash.png" alt="crash"><button class="keystroke">Q</button></li>
+        <li><label for="crash">Crash</label></li>
+      </ul>
+    </div>
+
+    <div id="kick" class = "instrument">
+      <audio id ="aud-kick" src="./sounds/kick-bass.mp3">
+      </audio>
+      <ul>
+        <li><img id="img-kick" src="./images/kick.png" alt="crash"><button class="keystroke">W</button></li>
+        <li><label for="kick">Kick Drum</label></li>
+      </ul>
+    </div>
+
+    <div id="snare" class = "instrument">
+      <audio id = "aud-snare" src="./sounds/snare.mp3">
+      </audio>
+      <ul>
+        <li><img id="img-snare" src="./images/snare.png" alt="crash"><button class="keystroke">E</button></li>
+        <li><label for="snare">Snare</label></li>
+      </ul>
+    </div>
+
+    <div id="tom1" class="instrument">
+      <audio id = "aud-tom1" src="./sounds/tom-1.mp3">
+      </audio>
+      <ul>
+        <li><img id="img-tom1" src="./images/tom1.png" alt="crash"><button class="keystroke">R</button></li>
+        <li><label for="tom1">Left Tom</label></li>
+      </ul>
+    </div>
+
+    <div id="tom2" class="instrument">
+      <audio id = "aud-tom2" src="./sounds/tom-2.mp3">
+      </audio>
+      <ul>
+        <li><img id="img-tom2" src="./images/tom2.png" alt="crash"><button class="keystroke">A</button></li>
+        <li><label for="tom2">Right Tom</label></li>
+      </ul>
+    </div>
+
+    <div id="floor-tom1" class="instrument">
+      <audio id = "aud-floor-tom1" src="./sounds/floor-tom-1.mp3">
+      </audio>
+      <ul>
+        <li><img id="img-floor-tom1" src="./images/floor-tom1.png" alt="crash"><button class="keystroke">S</button></li>
+        <li><label for="floor-tom1">Floor Tom 1</label></li>
+      </ul>
+    </div>
+
+    <div id="floor-tom2" class="instrument">
+      <audio id = "aud-floor-tom2" src="./sounds/floor-tom-2.mp3">
+      </audio>
+      <ul>
+        <li><img id="img-floor-tom2" src="./images/floor-tom2.png" alt="crash"><button class="keystroke">D</button></li>
+        <li><label for="floor-tom2">Floor Tom 2</label></li>
+      </ul>
+    </div>
+
+  </div>
+  <script src="./index.js" charset="utf-8"></script>
+</body>
+
+</html>

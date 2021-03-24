@@ -1,0 +1,62 @@
+body{
+  background-color: #C0A0FF;
+}
+ul{
+list-style-type: none;
+margin: 0;
+padding:0;
+}
+
+h1{
+ text-align: center;
+color:#374094;
+font-weight: bold;
+font-size: 6rem;
+font-family: 'Staatliches', cursive;
+}
+
+img{
+  width:4rem;
+  height:4rem;
+  background-color: white;
+}
+li{
+  position: relative;
+  margin-top:1rem;
+}
+label{
+  font-family: cursive;
+  color:#522F8F;
+
+}
+.keystroke{
+display:inline-block;
+position:absolute;
+margin:0;
+padding:0;
+bottom:5rem;
+right:1.55rem;
+color:red;
+width:1.5rem;
+height:1.5rem;
+color:#522F8F
+}
+
+.container{
+text-align: center;
+}
+
+.instrument{
+  display: inline-block;
+  text-align: center;
+  margin:2rem;
+}
+
+.instrument:hover{
+  cursor: pointer;
+}
+
+.pressed{
+  box-shadow: 0 3px 4px 0 #DBDEF3;
+  opacity: 0.5;
+}
